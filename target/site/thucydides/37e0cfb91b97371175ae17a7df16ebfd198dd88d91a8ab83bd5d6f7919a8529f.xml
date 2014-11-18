@@ -1,0 +1,77 @@
+<acceptance-test-run title="Check send message" name="checkSendMessage" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16525" timestamp="2014-08-06T18:45:56.521+03:00">
+  <user-story id="com.epam.kostiuk.requirements.Application.SentEmailTest" name="Sent email test" path="com.epam.kostiuk.requirements.Application"/>
+  <tags>
+    <tag name="Sent email test" type="story"/>
+  </tags>
+  <test-group name="Login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11, qwert789&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2940d8405cf7bf0599dd9631ab655547_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4839">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="776">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1058">
+      <screenshots>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;qwert789&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2154">
+      <screenshots>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+        <screenshot image="cb7110b22187e00405d5ddd9d1176d62_NONE.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2312">
+    <screenshots>
+      <screenshot image="ccde396b504380d501faa511a3294408_NONE.png"/>
+    </screenshots>
+    <description>Click compose button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2353">
+    <screenshots>
+      <screenshot image="3cdf6c404bc0128690b57d9b8552d4a2_NONE.png"/>
+    </screenshots>
+    <description>Type recipient: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="460">
+    <screenshots>
+      <screenshot image="eecee1b95b751f2eaadb46552f60e059_NONE.png"/>
+      <screenshot image="8b9692dbcd6ac7b1957824ad5f279554_NONE.png"/>
+    </screenshots>
+    <description>Enter message: &lt;span class=&apos;step-parameter&apos;&gt;Some txt&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="607">
+    <screenshots>
+      <screenshot image="30baa88305abed453b65d746f77ce6ae_NONE.png"/>
+      <screenshot image="f2c56259e1f2a1de111b420c1fcfb860_NONE.png"/>
+    </screenshots>
+    <description>Click send</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1016">
+    <screenshots>
+      <screenshot image="616aec332f62e57631bfec664ffea1ea_NONE.png"/>
+    </screenshots>
+    <description>Click view send message</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="654">
+    <screenshots>
+      <screenshot image="a1febf1674be159d8751146143bbfd93_NONE.png"/>
+      <screenshot image="1ac1195ae22f5a810bb97240f9399274_NONE.png"/>
+    </screenshots>
+    <description>Check email message: &lt;span class=&apos;step-parameter&apos;&gt;Some txt&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

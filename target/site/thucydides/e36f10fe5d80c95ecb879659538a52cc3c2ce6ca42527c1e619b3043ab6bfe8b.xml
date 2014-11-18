@@ -1,0 +1,71 @@
+<acceptance-test-run title="Check discart drafts" name="checkDiscartDrafts" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16929" timestamp="2014-08-06T18:45:04.281+03:00">
+  <user-story id="com.epam.kostiuk.requirements.Application.DraftMessageTest" name="Draft message test" path="com.epam.kostiuk.requirements.Application"/>
+  <tags>
+    <tag name="Draft message test" type="story"/>
+  </tags>
+  <test-group name="Login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11, qwert789&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2940d8405cf7bf0599dd9631ab655547_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6340">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1079">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="909">
+      <screenshots>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;qwert789&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2498">
+      <screenshots>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+        <screenshot image="cb7110b22187e00405d5ddd9d1176d62_NONE.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1519">
+    <screenshots>
+      <screenshot image="809bc46b6db773a75eafb0cef1f81ef0_NONE.png"/>
+      <screenshot image="cf0476da42f4916402c9e423bb16da95_NONE.png"/>
+    </screenshots>
+    <description>Click compose button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2090">
+    <screenshots>
+      <screenshot image="10c713cb5b7cbaf79e1788b8677d0545_NONE.png"/>
+    </screenshots>
+    <description>Enter message: &lt;span class=&apos;step-parameter&apos;&gt;Some txt&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="693">
+    <screenshots>
+      <screenshot image="672abb65122de0fc2480fafc649c2cba_NONE.png"/>
+      <screenshot image="fcaaad52c42ad48b0fe467d0b17d2a6a_NONE.png"/>
+    </screenshots>
+    <description>Click discart draft</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="561">
+    <screenshots>
+      <screenshot image="41c69d32fcd1d1ee7dbd98a7875856f2_NONE.png"/>
+      <screenshot image="9e47e811f3c2c61ac7e5577aa0ab35bb_NONE.png"/>
+    </screenshots>
+    <description>Click undo</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="338">
+    <screenshots>
+      <screenshot image="9e47e811f3c2c61ac7e5577aa0ab35bb_NONE.png"/>
+    </screenshots>
+    <description>Get message text</description>
+  </test-step>
+</acceptance-test-run>

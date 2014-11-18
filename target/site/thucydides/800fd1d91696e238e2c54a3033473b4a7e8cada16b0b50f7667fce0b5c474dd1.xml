@@ -1,0 +1,70 @@
+<acceptance-test-run title="Check star message" name="checkStarMessage" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18357" timestamp="2014-08-06T18:46:13.760+03:00">
+  <user-story id="com.epam.kostiuk.requirements.Application.StarMessageTest" name="Star message test" path="com.epam.kostiuk.requirements.Application"/>
+  <tags>
+    <tag name="Star message test" type="story"/>
+  </tags>
+  <test-group name="Login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11, qwert789&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c0f564eaf0b55e7986eef853ae452e05_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5093">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="830">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="678">
+      <screenshots>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;qwert789&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2121">
+      <screenshots>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+        <screenshot image="cb7110b22187e00405d5ddd9d1176d62_NONE.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2380">
+    <screenshots>
+      <screenshot image="19b33fe103ea6e24f28df8ea2d5a0970_NONE.png"/>
+      <screenshot image="ce202de1a7d92d5f69c16816af36899e_NONE.png"/>
+    </screenshots>
+    <description>Get star list size</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2759">
+    <screenshots>
+      <screenshot image="b84ed73db507acf871ab2cea098515dd_NONE.png"/>
+    </screenshots>
+    <description>Is stared: &lt;span class=&apos;step-parameter&apos;&gt;13&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="685">
+    <screenshots>
+      <screenshot image="ddccff7a6a9882088a97cfc6b1706f59_NONE.png"/>
+      <screenshot image="87808e4628004a29821f024bcb45c3f5_NONE.png"/>
+    </screenshots>
+    <description>Star message: &lt;span class=&apos;step-parameter&apos;&gt;13&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="366">
+    <screenshots>
+      <screenshot image="87808e4628004a29821f024bcb45c3f5_NONE.png"/>
+    </screenshots>
+    <description>Open inbox page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3297">
+    <screenshots>
+      <screenshot image="166105659a005611ac436c0351f52817_NONE.png"/>
+    </screenshots>
+    <description>Is stared: &lt;span class=&apos;step-parameter&apos;&gt;13&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Draft message test","Check discart drafts","SUCCESS","2014-08-06T09:40:54.205Z","0.0","17.77"
+"Sent email test","Check send message","SUCCESS","2014-08-06T09:41:47.694Z","0.0","20.3"
+"Star message test","Check star message","SUCCESS","2014-08-06T09:42:08.523Z","0.0","18.32"
+"Logout test","Log out check","SUCCESS","2014-08-06T09:41:33.438Z","0.0","13.75"
+"Login test","Login test","SUCCESS","2014-08-06T09:41:13.784Z","0.0","12.19"
+"Login test","Login wrong credentials test","SUCCESS","2014-08-06T09:41:26.123Z","0.0","6.89"

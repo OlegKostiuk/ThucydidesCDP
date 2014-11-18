@@ -1,0 +1,44 @@
+<acceptance-test-run title="Login test" name="loginTest" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10980" timestamp="2014-08-06T18:45:22.772+03:00">
+  <user-story id="com.epam.kostiuk.requirements.Application.LoginTest" name="Login test" path="com.epam.kostiuk.requirements.Application"/>
+  <tags>
+    <tag name="Login test" type="story"/>
+  </tags>
+  <test-group name="Login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11, qwert789&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="37960ed63de2c2998d473bd3c98d336f_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5256">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="788">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1009">
+      <screenshots>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;qwert789&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1972">
+      <screenshots>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+        <screenshot image="cb7110b22187e00405d5ddd9d1176d62_NONE.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="918">
+    <screenshots>
+      <screenshot image="e0f99b5255543673bb23b70513cb6693_NONE.png"/>
+    </screenshots>
+    <description>Is logged in: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

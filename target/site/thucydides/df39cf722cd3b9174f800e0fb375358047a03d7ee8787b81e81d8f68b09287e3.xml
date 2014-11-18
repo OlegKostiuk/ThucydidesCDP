@@ -1,0 +1,63 @@
+<acceptance-test-run title="Log out check" name="logOutCheck" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13717" timestamp="2014-08-06T18:45:41.955+03:00">
+  <user-story id="com.epam.kostiuk.requirements.Application.LogoutTest" name="Logout test" path="com.epam.kostiuk.requirements.Application"/>
+  <tags>
+    <tag name="Logout test" type="story"/>
+  </tags>
+  <test-group name="Login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11, qwert789&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2940d8405cf7bf0599dd9631ab655547_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4576">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="819">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;olegkostiuk11&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1161">
+      <screenshots>
+        <screenshot image="c233165ccce55661465b27e8d1e97976_NONE.png"/>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;qwert789&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1845">
+      <screenshots>
+        <screenshot image="3782d1f8dee413c1ffdbc476616e3338_NONE.png"/>
+        <screenshot image="926b5f82a4bf0477e0075aa42aa53315_NONE.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1302">
+    <screenshots>
+      <screenshot image="809bc46b6db773a75eafb0cef1f81ef0_NONE.png"/>
+      <screenshot image="6ed027f911edb5a399040174a446beb5_NONE.png"/>
+    </screenshots>
+    <description>Click user info button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2041">
+    <screenshots>
+      <screenshot image="14279e7f9acb5ecaace69efb8f4991f7_NONE.png"/>
+    </screenshots>
+    <description>Click log out</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="939">
+    <screenshots>
+      <screenshot image="d30daedb817fe576bfc8adde32552efa_NONE.png"/>
+    </screenshots>
+    <description>Open inbox page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="197">
+    <screenshots>
+      <screenshot image="d30daedb817fe576bfc8adde32552efa_NONE.png"/>
+    </screenshots>
+    <description>Is login page opened</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login test","Login test","SUCCESS","2014-08-06T09:41:13.784Z","0.0","12.19"
+"Login test","Login wrong credentials test","SUCCESS","2014-08-06T09:41:26.123Z","0.0","6.89"

@@ -1,0 +1,44 @@
+<acceptance-test-run title="Login wrong credentials test" name="loginWrongCredentialsTest" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7383" timestamp="2014-08-06T18:45:33.897+03:00">
+  <user-story id="com.epam.kostiuk.requirements.Application.LoginTest" name="Login test" path="com.epam.kostiuk.requirements.Application"/>
+  <tags>
+    <tag name="Login test" type="story"/>
+  </tags>
+  <test-group name="Login: &lt;span class=&apos;step-parameter&apos;&gt;asdfa, asdddf&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a551fab0990aa1b10b8e4ea5084f1f45_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5245">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="761">
+      <screenshots>
+        <screenshot image="ac0dab3c9cbd130bcb743bff9a83b281_NONE.png"/>
+        <screenshot image="73d864155b18f0873063492d488b6eea_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;asdfa&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="421">
+      <screenshots>
+        <screenshot image="73d864155b18f0873063492d488b6eea_NONE.png"/>
+        <screenshot image="40901bc09d49ea2749b9bcc56ddd4ae8_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;asdddf&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="638">
+      <screenshots>
+        <screenshot image="40901bc09d49ea2749b9bcc56ddd4ae8_NONE.png"/>
+        <screenshot image="a551fab0990aa1b10b8e4ea5084f1f45_NONE.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="215">
+    <screenshots>
+      <screenshot image="a551fab0990aa1b10b8e4ea5084f1f45_NONE.png"/>
+    </screenshots>
+    <description>Is wrong credentials message present</description>
+  </test-step>
+</acceptance-test-run>
